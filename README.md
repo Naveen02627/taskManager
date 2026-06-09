@@ -181,7 +181,7 @@ curl -X POST http://localhost:8080/auth/login \
 
 Save the token value. It will be required for all authenticated requests.
 
-![Login Response](screenshots/login.png)
+![Login Response]([screenshots/login.png](https://github.com/Naveen02627/taskManager/blob/main/screenshots/Screenshot%202026-06-09%20094407.png))
 
 ---
 
@@ -203,7 +203,7 @@ curl -X GET "http://localhost:8080/user/getUser?id=1" \
 }
 ```
 
-![User Profile](screenshots/user-profile.png)
+![User Profile](https://github.com/Naveen02627/taskManager/blob/main/screenshots/Screenshot%202026-06-09%20094806.png)
 
 ---
 
@@ -232,7 +232,7 @@ curl -X POST http://localhost:8080/task/add \
 }
 ```
 
-![Task Created](screenshots/task-created.png)
+![Task Created](https://github.com/Naveen02627/taskManager/blob/main/screenshots/Screenshot%202026-06-09%20094922.png)
 
 ---
 
@@ -257,7 +257,7 @@ curl -X GET http://localhost:8080/task/getAll \
 ]
 ```
 
-![Task List](screenshots/task-list.png)
+![Task List](https://github.com/Naveen02627/taskManager/blob/main/screenshots/Screenshot%202026-06-09%20095017.png)
 
 ---
 
@@ -278,6 +278,11 @@ curl -X PUT http://localhost:8080/task/update/1 \
 
 Returns the updated task object.
 
+
+
+![Update task](https://github.com/Naveen02627/taskManager/blob/main/screenshots/Screenshot%202026-06-09%20095103.png)
+
+
 ---
 
 ## 7. Delete a Task
@@ -290,6 +295,10 @@ curl -X DELETE http://localhost:8080/task/delete/1 \
 ### Response (200 OK)
 
 Returns the deleted task object.
+
+
+![Delete Task](https://github.com/Naveen02627/taskManager/blob/main/screenshots/Screenshot%202026-06-09%20095132.png)
+
 
 ---
 
@@ -312,6 +321,7 @@ Login as the admin user and obtain a JWT token.
 
 Then call:
 
+![Admin login](https://github.com/Naveen02627/taskManager/blob/main/screenshots/Screenshot%202026-06-09%20095224.png)
 ```bash
 curl -X GET http://localhost:8080/user/all \
 -H "Authorization: Bearer <admin-token>"
@@ -321,7 +331,7 @@ curl -X GET http://localhost:8080/user/all \
 
 Returns a list of all registered users (passwords excluded).
 
-![Admin User List](screenshots/admin-users.png)
+![Admin User List](https://github.com/Naveen02627/taskManager/blob/main/screenshots/Screenshot%202026-06-09%20095401.png)
 
 ---
 
