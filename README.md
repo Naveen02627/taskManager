@@ -153,7 +153,7 @@ curl -X POST http://localhost:8080/user/register \
 }
 ```
 
-![Registration Response](screenshots/register.png)
+![Registration Response](https://github.com/Naveen02627/taskManager/blob/main/screenshots/Screenshot%202026-06-09%20094308.png)
 
 ---
 
